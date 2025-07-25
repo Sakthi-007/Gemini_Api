@@ -3,7 +3,7 @@ import * as fs from 'fs';
 console.log("Starting the AI content generation...");
 const prompt = "analyze this bank statement and create a visual representation of the spendings"
 
-const ai = new GoogleGenAI({ apiKey: "AIzaSyB5osR86Dx2TKAZYHv3O_UowoKEG-M41l8" });
+const ai = new GoogleGenAI({ apiKey: "" });
 
 async function main() {
     const contents = [
